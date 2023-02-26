@@ -48,9 +48,9 @@ local ui = ui_source:CreateWindow({
        FileName = "Profile"
     },
     Discord = {
-        Enabled = false,
-        Invite = "",
-        RememberJoins = true
+        Enabled = enabled,
+        Invite = "https://discord.gg/Zf4vNFmd9y",
+        RememberJoins = false
     },
     KeySystem = false,
     KeySettings = {
